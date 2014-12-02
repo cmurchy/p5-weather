@@ -17,45 +17,16 @@
 
 <body>
 
-  <div class="ui grid">
-    <div class="sixteen column grid">
-      <header></header>
-      <div>
-        <h1>Simple Weather</h1>
-          <ul id="inputs">
-            <li>
-                    <input type="text" placeholder="ZIP Code">
-            </li>
-            <li>
-                    <button class="btn-large">Forecast</button>
-            </li>
-          </ul>
+  <div class="ui one column grid">
+    <div id="box" class="column">
+      <div id="box" class="ui segment">
+        <div id="weather" class="weather"></div>
+        <div id="weather2" class="weather"></div>
       </div>
-      <div id="weather" class="weather"></div>
-      <div id="weather2" class="weather"></div>
     </div>
   </div>
-  
- <!-- Website 
-<div class="ui grid">
-    <div class="box">
-      <div>
-        <h1>Simple Weather</h1>
-          <ul id="inputs">
-            <li>
-                    <input type="text" placeholder="ZIP Code">
-            </li>
-            <li>
-                    <button class="btn-large">Forecast</button>
-            </li>
-          </ul>
-      </div>
-    </div>
-            
-    <div id="weather" class="weather"></div>
-    <div id="weather2" class="weather"></div>
-</div>
--->
+
+
   
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/semantic.js"></script>
@@ -64,3 +35,63 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+<!-- 
+<main class="container">
+  <div class="row">
+
+    <button class="js-geolocation" style="display: none;">My Location</button>
+
+    <div id="box" class="column50">
+      <div id="weather" class="weather"></div>
+    </div> 
+
+    <div id="box" class="column50">
+      <div id="weather2" class="weather"></div>
+    </div>
+
+  </div>
+        
+</main>
+--> 
+
+
+<!-- 
+  <div class="ui grid">
+    <div class="two wide column"></div>
+      <div id="box" class="twelve wide column">
+        <button class="js-geolocation" style="display: none;">Use Your Location</button>
+        <div id="weather" class="weather"></div>
+        <div id="weather2" class="weather"></div>
+      </div>
+    <div class="two wide column"></div>
+  </div>
+
+<button class="js-geolocation" style="display: none;">Use Your Location</button>
+<div id="weather" class="weather"></div>
+<div id="weather2" class="weather"></div>
+--> 
+
+
+
+
+<!--         <h1>Simple Weather</h1>
+          <ul id="inputs">
+            <li>
+                    <input type="text" placeholder="ZIP Code">
+            </li>
+            <li>
+                    <button class="btn-large">Forecast</button>
+            </li>
+          </ul> 
+
+      <div id="weather" class="weather"></div>
+      <div id="weather2" class="weather"></div>
+
+          -->
