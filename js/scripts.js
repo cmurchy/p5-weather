@@ -1,7 +1,8 @@
 // Docs at http://simpleweatherjs.com
 $(document).ready(function() {
 
-
+var images = ['lines.png', 'circles.png', 'crisscross.png', 'grid.png'];
+$('body').css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
     /* Does your browser support geolocation? */
 if ("geolocation" in navigator) {
