@@ -47,6 +47,12 @@ button {
   margin: 0 20px;
 }
 
+#header {
+  color: lightblue;
+  font: 110px League Gothic, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+  margin: -110px 0 -95px -300px;
+}
 
 @font-face {
     font-family: 'weather';
