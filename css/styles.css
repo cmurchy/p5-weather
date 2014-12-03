@@ -50,7 +50,7 @@ button {
 
 #header {
   color: white;
-  font: 110px League Gothic, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 90px League Gothic, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
   margin: -110px 0 -95px -300px;
 }
@@ -140,9 +140,7 @@ button {
 }
 
 #header {
-  color: lightblue;
   font: 90px League Gothic, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
   margin: -115px 0 -85px -170px;
 }
 
@@ -164,9 +162,8 @@ button {
 }
 
 #header {
-  color: lightblue;
-  font: 90px League Gothic, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
+  font: 90px League Gothic, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: -115px 0 -85px -170px;
 }
 
@@ -188,9 +185,7 @@ button {
 }
 
 #header {
-  color: lightblue;
   font: 60px League Gothic, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
   margin: -75px 0 -45px -115px;
 }
 
