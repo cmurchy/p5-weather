@@ -38,6 +38,7 @@ button {
 .weather li {
   background: #595959;
   background: rgba(255,255,255,0.90);
+  color: rgb(255, 83, 83);
   padding: 0px;
   display: inline-block;
   border-radius: 5px;
