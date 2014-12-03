@@ -131,7 +131,24 @@ i {
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+body {
+  background: none;
+}
 
+button {
+  margin: 15px 25px;
+}
+
+#header {
+  color: lightblue;
+  font: 90px League Gothic, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+  margin: -115px 0 -85px -170px;
+}
+
+.weather h2 {
+  font-size: 75px;
+}
 
 }
 
