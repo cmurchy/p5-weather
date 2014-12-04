@@ -1,8 +1,8 @@
+/* Regular */
 @font-face {
-    font-family: 'league_gothicregular';
+    font-family: 'League Gothic';
     src: url('leaguegothic-regular-webfont.eot');
     src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('leaguegothic-regular-webfont.woff2') format('woff2'),
          url('leaguegothic-regular-webfont.woff') format('woff'),
          url('leaguegothic-regular-webfont.ttf') format('truetype'),
          url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
@@ -14,7 +14,7 @@
 body {
   background: url('../img/lines.png');
   padding: 45px 0;
-  font: 13px 'league_gothicregular', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 13px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 button {
@@ -63,7 +63,7 @@ button {
 
 #header {
   color: white;
-  font: 90px 'league_gothicregular', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 90px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
   margin: -110px 0 -95px -300px;
 }
@@ -153,7 +153,7 @@ button {
 }
 
 #header {
-  font: 90px 'league_gothicregular', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 90px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: -115px 0 -85px -170px;
 }
 
@@ -176,7 +176,7 @@ button {
 
 #header {
 
-  font: 90px 'league_gothicregular', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 90px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: -115px 0 -85px -170px;
 }
 
@@ -198,7 +198,7 @@ button {
 }
 
 #header {
-  font: 60px 'league_gothicregular', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 60px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: -75px 0 -45px -115px;
 }
 
@@ -206,9 +206,13 @@ i {
   display: none;
 }
 
+.weather {
+  margin: 0px -23px;
+}
+
 .weather h2 {
   font-size: 50px;
-  margin: 0px -15px 8px;
+  margin: 0px -40px 8px;
 }
 
 .weather .currently {
