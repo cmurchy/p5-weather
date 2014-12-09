@@ -11,6 +11,13 @@
 
 }
 
+a {
+  text-decoration: none;
+  color: lightblue;
+  margin-left: 120px;
+  padding-top: 15px;
+}
+
 body {
   background: url('../img/lines.png');
   padding: 45px 0;
@@ -29,7 +36,7 @@ button {
 }
 
 .weather {
-  margin: 0px auto;
+  margin: 20px auto;
   text-align: center;
   text-transform: uppercase;
 }
@@ -144,6 +151,10 @@ i {
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+a {
+  margin-left: 50px;
+}
+
 body {
   background: none;
 }
@@ -166,6 +177,10 @@ button {
 
 @media (min-width: 480px) and (max-width: 767px) {
 
+a {
+  margin-left: 20px;
+}
+
 body {
   background: none;
 }
@@ -187,6 +202,10 @@ button {
 }
 
 @media (min-width: 0px) and (max-width: 479px) {
+
+a {
+  margin-left: 11px;
+}
 
 body {
   background: none;
