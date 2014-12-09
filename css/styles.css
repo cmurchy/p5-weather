@@ -21,7 +21,7 @@ a {
 body {
   background: url('../img/lines.png');
   padding: 45px 0;
-  font: 13px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 13px 'League Gothic', sans-serif;
 }
 
 button {
@@ -70,7 +70,7 @@ button {
 
 #header {
   color: white;
-  font: 90px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 90px 'League Gothic', sans-serif;
 
   margin: -110px 0 -95px -300px;
 }
@@ -164,7 +164,7 @@ button {
 }
 
 #header {
-  font: 90px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 90px 'League Gothic', sans-serif;
   margin: -115px 0 -85px -170px;
 }
 
@@ -191,7 +191,7 @@ button {
 
 #header {
 
-  font: 90px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 90px 'League Gothic', sans-serif;
   margin: -115px 0 -85px -170px;
 }
 
@@ -217,7 +217,7 @@ button {
 }
 
 #header {
-  font: 60px 'League Gothic', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 60px 'League Gothic', sans-serif;
   margin: -75px 0 -45px -115px;
 }
 
